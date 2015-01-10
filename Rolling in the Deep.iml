@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Rolling in the Deep">
+    <configurations>
+      <configuration name="Rolling in the Deep" pure-as="true" main-class="Main" output-file="Rolling_in_the_Deep.swf" output-folder="$MODULE_DIR$/out/production/Rolling in the Deep">
+        <dependencies target-player="12">
+          <entries>
+            <entry library-id="f4a930f7-e094-4a52-8000-4d701da02f16">
+              <dependency linkage="External" />
+            </entry>
+            <entry library-id="18a96585-3a51-45f7-b73c-ea8ee1d817eb">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="bfcc9dd7-e7f0-460a-96b5-7c1ebb6b4bfd">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="64d36e6b-6295-4819-8fb3-c4cb2429fab7">
+              <dependency linkage="Include" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-swf-version=13" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/classes" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="f4a930f7-e094-4a52-8000-4d701da02f16" />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Development/flex_sdk_4.6/frameworks/libs/player/16/playerglobal.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="18a96585-3a51-45f7-b73c-ea8ee1d817eb" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/flas/GraphAPI_Web_1_8_1.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="bfcc9dd7-e7f0-460a-96b5-7c1ebb6b4bfd" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/flas/MonsterDebugger.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="64d36e6b-6295-4819-8fb3-c4cb2429fab7" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/flas/Brick.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
