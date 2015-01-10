@@ -1,0 +1,2 @@
+# rolling_in_the_deep
+Full version (client &amp; server) of Rolling in the Deep game (play it on Facebook: https://apps.facebook.com/rolling_in_the_deep) - your goal is to solve 100 peculiar puzzles which will improve your strategic and logical thinking, besides delivering a huge doze of fun. Client is made via AS3 and Flash published via IFrame on Facebook. Server-side is made with PHP at stored Heroku.
