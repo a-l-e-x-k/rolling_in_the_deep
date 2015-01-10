@@ -1,0 +1,31 @@
+*{margin:0px;padding:0px;}
+body{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #28201B;
+    font-size: 13px;
+    line-height: 1.4;
+    background: url(../images/bg5.png) center top repeat;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-attachment: initial;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    text-align: center;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+} /* required to not show iframe scrollbars  */
+a{color:#28abec;}
+ 
+#pageContent{width:774px; margin-left: auto; margin-right: auto;}
+.fb-like{padding-left:10px;}
+
+/* Tabs */
+#tabs{height:19px;margin-bottom:10px;margin-top:10px;padding-left:10px; border-bottom: 1px solid #777777;}
+#tabs span{position:relative;cursor:pointer;z-index:1;display:block;float:left;height:18px;line-height:18px;padding:0px 10px 0px 10px;margin-right:-1px;text-align:center;background-color:#e8e8e8;border:1px solid #898989;color:#333333;font-weight:bold;}
+#tabs span:hover{text-decoration:underline;}
+#tabs span.active{text-decoration:none;border-color:#37538e;background-color:#687eac;color:white;z-index:2}
+#tabs #invFriends{background-color:#B9FF6C;}
